@@ -1,0 +1,82 @@
+Nanjing Qinheng Microelectronics Co., Ltd. 2022.08
+Please check our website for the latest information
+http://wch.cn
+
+
+File Directory
+  |
+  |-- CH32V00x: RISC-V core microcontroller
+  | |-- EVT: CH32V00x evaluation board and CH32V00x related routines
+  | | |-- PUB:
+  | | | |-- CH32V00x Evaluation Board Instructions.pdf: CH32V00x Evaluation Board Instructions and Project Creation Instructions
+  | | | |-- CH32V00xSCH.pdf: CH32V00x Evaluation Board Schematic
+  | | |-- EXAM:
+  | | | |-- SRC
+  | | | | |-- Core: kernel system header file
+  | | | | |-- Debug: Delay function, serial port debugging source file and header file
+  | | | | |-- Ld: ld file
+  | | | | |-- Peripheral: Basic peripheral driver source files and header files
+  | | | | |-- Startup: Startup file.
+  | | | |-- ADC
+  | | | | |-- ADC_DMA: ADC uses DMA sampling routine
+  | | | | |-- AnalogWatchdog: analog watchdog routine
+  | | | | |-- Auto_Injection: Automatic injection mode routine
+  | | | | |-- Discontinuous_mode: Discontinuous mode routine
+  | | | | |-- ExtLines_Trigger: External trigger ADC conversion routine
+  | | | |-- DMA
+  | | | | |-- DMA_MEM2MEM: memory-to-memory mode routine
+  | | | | |-- DMA_MEM2PERIP: For routines in memory-to-peripheral mode and peripheral-to-memory mode, see each peripheral subroutine
+  | | | |-- EXTI
+  | | | | |-- EXTI0: External interrupt thread routine
+  | | | |-- FLASH
+  | | | | |-- FLASH_Program: FLASH erase/read/write, and fast programming
+  | | | |-- GPIO
+  | | | | |-- GPIO_Toggle: GPIO routine
+  | | | |-- I2C
+  | | | | |-- I2C_7bit_Mode: 7-bit address mode, Master/Slave mode transceiver routine
+  | | | | |-- I2C_10bit_Mode: 10-bit address mode, Master/Slave mode transceiver routine
+  | | | | |-- I2C_DMA: I2C uses DMA, Master/Slave mode transceiver routine
+  | | | | |-- I2C_EEPROM: I2C interface operation EEPROM peripheral routine
+  | | | | |-- I2C_PEC: use PEC error check, master/slave mode transceiver routine
+  | | | |-- IAP
+  | | | | |-- V00x_APP: APP jump IAP routine
+  | | | |-- IWDG
+  | | | | |-- IWDG: Independent watchdog routine
+  | | | |-- OPA
+  | | | | |-- OPA: OPA as a voltage follower output routine
+  | | | |-- PWR
+  | | | | |-- Sleep_Mode: Low power, sleep mode routine
+  | | | | |-- Standby_Mode: low power, standby mode routine
+  | | | |-- RCC
+  | | | | |-- Get_CLK: Get system-HCLK-AHB1-AHB2 clock routine
+  | | | | |-- MCO: MCO pin clock output routine
+  | | | |-- SPI
+  | | | | |-- 1Lines_half-duplex: single-line half-duplex mode, data transmission and reception in Master/Slave mode
+  | | | | |-- 2Lines_FullDuplex: Two-line full-duplex mode, data transmission and reception in Master/Slave mode
+  | | | | |-- FullDuplex_HardNSS: hardware NSS mode, Master/Slave mode data transmission and reception
+  | | | | |-- SPI_CRC: Use CRC error check, Master/Slave mode transceiver routine
+  | | | | |-- SPI_DMA: SPI uses DMA, Master/Slave mode transceiver routine
+  | | | |-- SYSTICK
+  | | | | |-- SYSTICK_Interrupt: systick interrupt routine
+  | | | |-- TIM
+  | | | | |-- Clock_Select: Clock source selection routine
+  | | | | |-- ComplementaryOutput_DeadTime: Complementary Output and Dead Time Insertion Mode Routine
+  | | | | |-- ExtTrigger_Start_Two_Timer: External trigger synchronously starts two timer routines
+  | | | | |-- Input_Capture: Input capture routine
+  | | | | |-- One_Pulse: One pulse output routine
+  | | | | |-- Output_Compare_Mode: Output compare mode routine
+  | | | | |-- PWM_Output: PWM output routine
+  | | | | |-- Synchro_ExtTrigger: Slave mode routine, including reset mode, gate control mode, trigger mode
+  | | | | |-- Synchro_Timer: Timer synchronization mode
+  | | | | |-- TIM_DMA: The timer uses the DMA routine
+  | | | |-- USART
+  | | | | |-- USART_DMA: USART uses DMA, Master/Slave mode transceiver routine
+  | | | | |-- USART_HalfDuplex: Single-line half-duplex mode, Master/Slave mode transceiver routine
+  | | | | |-- USART_HardwareFlowControl: Hardware flow control mode, Master/Slave mode transceiver routine
+  | | | | |-- USART_Interrupt: USART interrupt routine, Master/Slave mode transceiver routine
+  | | | | |-- USART_MultiProcessorCommunication: Multiprocessor communication mode routine
+  | | | | |-- USART_Polling: polling transceiver mode, master/slave mode transceiver routine
+  | | | | |-- USART_Printf: Serial port print debugging routine
+  | | | | |-- USART_SynchronousMode: Synchronous mode, Master/Slave mode transceiver routine
+  | | | |-- WWDG
+  | | | | |-- WWDG: Window watchdog routine
